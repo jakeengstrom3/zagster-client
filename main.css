@@ -1,5 +1,13 @@
+html{
+    height: 100%;
+}
+
 body{
     font-family: "HelveticaNeue", "Arial", sans-serif;  
+    background-image: linear-gradient(#90ee90, green);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1{
@@ -16,4 +24,20 @@ h2{
     width: 1000px;
     text-align: center;
     margin: 0 auto;
+}
+#ABOUT{
+    font-size: 20px;
+    text-align: left;
+}
+#ABOUT_HEADER{
+    text-align: left;
+    
+}
+#myChart{
+    margin-top: 50px;
+    background-color: white;
+    border: 8px solid magenta;
+}
+#rideCount{
+    font-size: 30px;
 }
